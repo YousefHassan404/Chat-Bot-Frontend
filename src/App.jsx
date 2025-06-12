@@ -36,7 +36,7 @@ const WhatsAppBotDashboard = () => {
   const intervalRef = useRef(null);
   const pollingRef = useRef(null);
 
-  const API_BASE_URL = 'https://chat-bot-backend-cnendw.fly.dev/api';
+  const API_BASE_URL = 'https://chat-bot-backend-dhtqcg.fly.dev/api';
 
   // Status configurations
   const statusConfig = {
