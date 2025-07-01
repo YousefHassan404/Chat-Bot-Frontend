@@ -35,9 +35,7 @@ const WhatsAppBotDashboard = () => {
   const [activeTab, setActiveTab] = useState('dashboard');
 
   // Base API URL
-  const API_BASE = process.env.NODE_ENV === 'production' 
-    ? '/api' 
-    : 'http://localhost:3000/api';
+  const API_BASE = "https://diggipacksv0.fly.dev/api"
 
   // إضافة إشعار
   const addNotification = (message, type = 'info') => {
@@ -328,7 +326,7 @@ const WhatsAppBotDashboard = () => {
         <div className="text-center mb-8">
           <div className="flex items-center justify-center mb-4">
             <MessageCircle className="w-12 h-12 text-green-600 mr-3" />
-            <h1 className="text-4xl font-bold text-gray-800">لوحة تحكم بوت WhatsApp</h1>
+            <h1 className="text-4xl font-bold text-gray-800">لوحة تحكم بوت ديجيباكس</h1>
           </div>
           <p className="text-gray-600 text-lg">البوت الذكي مع تكامل الذكاء الاصطناعي وإدارة الشحن</p>
         </div>
